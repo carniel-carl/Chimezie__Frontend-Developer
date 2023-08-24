@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .fadeIn {
+    opacity: 0;
+    background-color: transparent;
+    transition: all 0.5s ease;
+  }
+  .fadeOut {
+    opacity: 1;
+    background-color: unset;
+    transition: opacity 0.5s ease;
+  }
+}
