@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import DataCard from "./DataCard";
 import Pagination from "./UI/Pagination";
 
-const api = "https://jsonplaceholder.typicode.com/posts";
-// const api = "https://api.spacexdata.com/v3/capsules";
+// const api = "https://jsonplaceholder.typicode.com/posts";
+const api = "https://api.spacexdata.com/v3/capsules";
 
 const DataGrid = () => {
   const [currentPage, setCurrentPage] = useState(1);
