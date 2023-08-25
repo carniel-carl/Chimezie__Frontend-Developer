@@ -25,7 +25,7 @@ const Banner = () => {
           src={capsule}
           alt="capsule"
           aria-label="capsule image"
-          className="w-full scale-90 md:scale-[135%]"
+          className="w-full scale-90 md:scale-[100%] lg:scale-[135%]"
         />
       </article>
     </section>

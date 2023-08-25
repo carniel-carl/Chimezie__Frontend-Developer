@@ -3,7 +3,7 @@ import Card from "./UI/Card";
 
 const DataCard = ({ datas }) => {
   return (
-    <ul className="cards grid grid-cols-2 md:grid-cols-4  gap-3 md:gap-5 justify-center">
+    <ul className="cards grid sm:grid-cols-2 lg:grid-cols-4  gap-3 md:gap-5 justify-center">
       {datas.map((data, i) => (
         <li key={i}>
           <Card data={data} />
